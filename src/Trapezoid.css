@@ -1,0 +1,18 @@
+.trapezoid-clip {
+    width: 200px;
+    height: 100px;
+    background-color: #4CAF50;
+    clip-path: polygon(25% 0, 75% 0, 100% 100%, 0% 100%);
+    text-align: center;
+    position: relative;
+  }
+  
+  .trapezoid-clip p {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    color: white;
+    font-size: 18px;
+  }
+  
